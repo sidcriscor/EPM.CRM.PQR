@@ -1,0 +1,16 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{4667EDA5-EACB-4D2F-BDFF-50DB8B3EE2AF}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>46839061-077e-4915-98d9-5966309a46c2</string>
+      <string>fd79fbb9-e1f8-468d-82f6-e6d689cadda4</string>
+      <string>6c0e8838-555a-496c-9e0b-b6b9a2811891</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution EPM.CRM.PQR[Solution Items[]]]&#xD;&#xA;Solution EPM.CRM.PQR&#xD;&#xA;Solution EPM.CRM.PQR" />
+  <StartupProject value="{4667EDA5-EACB-4D2F-BDFF-50DB8B3EE2AF}" />
+</Properties>
