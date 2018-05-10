@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b99c3fdc-477f-4e4f-8f5e-9fe5dc972b2d"
+mode="Global"
+rxversion="8.1">
+	<name>
+		AbrirPagina
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AbrirPagina"
+	namespace="EPM.CRM.PQR.Funcionalidad001_Inicio">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="IE"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://epm-wt57/EPMCRMMATRIZUAT/main.aspx
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="f753f0e1-67fd-40ae-b00d-6787a4051de6"
+	name="EPM_CRM_PQRRepository"
+	relativepath="..\EPM.CRM.PQRRepository.rxrep"
+	rxversion="8.1">
+		<codegen
+		classname="EPM_CRM_PQRRepository"
+		namespace="EPM.CRM.PQR">
+		</codegen>
+		<rootfolder
+		id="6b31eb5c-b88b-46d6-82f0-e05706f49ca1"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AbrirPagina.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{4667EDA5-EACB-4D2F-BDFF-50DB8B3EE2AF}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EPM.CRM.PQR</RootNamespace>
+    <AssemblyName>EPM.CRM.PQR</AssemblyName>
+    <RanorexVersion>8.1</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildProgramFiles32)\MSBuild\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>219842aa-0f19-4495-bb6c-8216672b7115</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>5c7b0807-13a2-4a6c-8e7d-021c0bc8e90f</id>
+    </Compile>
+    <Compile Include="EPM.CRM.PQRRepository.cs">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <DependentUpon>EPM.CRM.PQRRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>59c61bb1-d0e9-4fde-9659-b45d4f8724c9</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\AbrirPagina.cs">
+      <DependentUpon>AbrirPagina.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0cbd5b7d-e263-4dba-bbf6-3687208f52b8</id>
+      <BoundTo>271cf321-e7d7-4830-aaf6-6382accfd486</BoundTo>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\AbrirPagina.UserCode.cs">
+      <DependentUpon>AbrirPagina.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fef14223-f492-4b97-98b4-0a699776aca7</id>
+      <BoundTo>271cf321-e7d7-4830-aaf6-6382accfd486</BoundTo>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\BuscarEntidadCasos.cs">
+      <BoundTo>20ecf9c0-c3d2-4a93-9fbc-b534e38f93bb</BoundTo>
+      <DependentUpon>BuscarEntidadCasos.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f9f0d71d-d303-4753-ade1-122c12ffc296</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\BuscarEntidadCasos.UserCode.cs">
+      <BoundTo>20ecf9c0-c3d2-4a93-9fbc-b534e38f93bb</BoundTo>
+      <DependentUpon>BuscarEntidadCasos.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2b2a0a97-9a28-49aa-beea-b788d9311f49</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\CerrarMensaje.cs">
+      <BoundTo>c7eb37b5-a323-4c8c-a70d-cfc902fcbb42</BoundTo>
+      <DependentUpon>CerrarMensaje.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33d4f720-3678-4809-a29e-3dd771c621d2</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\CerrarMensaje.UserCode.cs">
+      <BoundTo>c7eb37b5-a323-4c8c-a70d-cfc902fcbb42</BoundTo>
+      <DependentUpon>CerrarMensaje.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a9c44e2d-1d89-42c6-9e73-7572227ed16c</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\cerrarMensajesQuejas.cs">
+      <BoundTo>86608062-0ee0-456d-b9d3-ceaee4cff01e</BoundTo>
+      <DependentUpon>cerrarMensajesQuejas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6233dbc-c3a2-4b08-9415-e738d18915e7</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\cerrarMensajesQuejas.UserCode.cs">
+      <BoundTo>86608062-0ee0-456d-b9d3-ceaee4cff01e</BoundTo>
+      <DependentUpon>cerrarMensajesQuejas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9079722e-b5e6-456a-817f-8f4ade02e563</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\CrearQueja.cs">
+      <DependentUpon>CrearQueja.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0055fe11-9e03-4d0c-a59a-745fb68ec6ff</id>
+      <BoundTo>b610276b-7a52-499f-9a5f-d55a8738d9e8</BoundTo>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\CrearQueja.UserCode.cs">
+      <DependentUpon>CrearQueja.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e3f1e050-b049-4285-9fad-a4b580c2e3f1</id>
+      <BoundTo>b610276b-7a52-499f-9a5f-d55a8738d9e8</BoundTo>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\IngresaDatosQueja.cs">
+      <BoundTo>52632a33-3377-42d0-b707-0b316d344b3f</BoundTo>
+      <DependentUpon>IngresaDatosQueja.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>42db6924-a4ed-4bc8-8055-e6f30c848c27</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\IngresaDatosQueja.UserCode.cs">
+      <BoundTo>52632a33-3377-42d0-b707-0b316d344b3f</BoundTo>
+      <DependentUpon>IngresaDatosQueja.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>07e94873-0606-4026-b027-cb420ba35477</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\SeleccionaFormularioQuejas.cs">
+      <BoundTo>c880a663-0322-4f14-aa6e-80739021209b</BoundTo>
+      <DependentUpon>SeleccionaFormularioQuejas.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>edf41163-9c28-496b-abde-1da96fcd6447</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\SeleccionaFormularioQuejas.UserCode.cs">
+      <BoundTo>c880a663-0322-4f14-aa6e-80739021209b</BoundTo>
+      <DependentUpon>SeleccionaFormularioQuejas.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d5fff2f6-8b47-4e37-9351-b508f5577546</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\SeleccionarEquipoProcesoCausa.cs">
+      <BoundTo>8a963c55-3ca4-49e5-ad5e-55bd611a3369</BoundTo>
+      <DependentUpon>SeleccionarEquipoProcesoCausa.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e4938ac7-25aa-4ead-b234-385f030b353f</id>
+    </Compile>
+    <Compile Include="Funcionalidad001_Inicio\SeleccionarEquipoProcesoCausa.UserCode.cs">
+      <BoundTo>8a963c55-3ca4-49e5-ad5e-55bd611a3369</BoundTo>
+      <DependentUpon>SeleccionarEquipoProcesoCausa.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ec8986de-8eb2-45a1-a1cb-19a9cffbc8c9</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b47ce99d-19f8-4da2-9a8b-26f2519684f1</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>e8869af9-f69b-45fb-b882-dabcf69608c6</id>
+    </None>
+    <None Include="EPM.CRM.PQRRepository.rximg">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <DependentUpon>EPM.CRM.PQRRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>fd155d85-0502-4b0d-a80c-08c4e89e4bae</id>
+    </None>
+    <None Include="EPM.CRM.PQRRepository.rxrep">
+      <id>219842aa-0f19-4495-bb6c-8216672b7115</id>
+      <repoid>f753f0e1-67fd-40ae-b00d-6787a4051de6</repoid>
+      <reporootid>6b31eb5c-b88b-46d6-82f0-e05706f49ca1</reporootid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\AbrirPagina.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>271cf321-e7d7-4830-aaf6-6382accfd486</id>
+      <recordtableid>b99c3fdc-477f-4e4f-8f5e-9fe5dc972b2d</recordtableid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\BuscarEntidadCasos.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>20ecf9c0-c3d2-4a93-9fbc-b534e38f93bb</id>
+      <recordtableid>54d817de-c477-4d41-a3eb-966446c83452</recordtableid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\CerrarMensaje.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>c7eb37b5-a323-4c8c-a70d-cfc902fcbb42</id>
+      <recordtableid>06099073-58df-40f2-8b25-848d692a29c6</recordtableid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\cerrarMensajesQuejas.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>86608062-0ee0-456d-b9d3-ceaee4cff01e</id>
+      <recordtableid>c6c12efc-be67-4a41-8f4c-99cd8f48cd34</recordtableid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\CrearQueja.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>b610276b-7a52-499f-9a5f-d55a8738d9e8</id>
+      <recordtableid>fd79fbb9-e1f8-468d-82f6-e6d689cadda4</recordtableid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\IngresaDatosQueja.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>52632a33-3377-42d0-b707-0b316d344b3f</id>
+      <recordtableid>3d85cdb8-4bab-4058-9bc4-e650b6aa780e</recordtableid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\SeleccionaFormularioQuejas.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>c880a663-0322-4f14-aa6e-80739021209b</id>
+      <recordtableid>6c0e8838-555a-496c-9e0b-b6b9a2811891</recordtableid>
+    </None>
+    <None Include="Funcionalidad001_Inicio\SeleccionarEquipoProcesoCausa.rxrec">
+      <BoundTo>219842aa-0f19-4495-bb6c-8216672b7115</BoundTo>
+      <id>8a963c55-3ca4-49e5-ad5e-55bd611a3369</id>
+      <recordtableid>51a53205-1906-4eb4-9a96-4110c5bf2b26</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EPM.CRM.PQR.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c4bb5290-3378-4890-a67c-943a97018271</id>
+    </Content>
+    <Content Include="EPM.CRM.PQR.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>5467c028-5df3-4ec5-b528-a93fdff9a846</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Funcionalidad001_Inicio">
+      <id>46839061-077e-4915-98d9-5966309a46c2</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

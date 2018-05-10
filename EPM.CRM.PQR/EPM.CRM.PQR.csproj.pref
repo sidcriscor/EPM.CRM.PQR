@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="EPM.CRM.PQR.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="EPM.CRM.PQR.rxtst" />
+    <Element value="Funcionalidad001_Inicio\CrearQueja.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="EPM.CRM.PQR.Funcionalidad001_Inicio.CrearQueja.Formularios()" />
+      <Element value="EPM.CRM.PQR.Funcionalidad001_Inicio.CerrarMensaje.MCerrarMensaje()" />
+    </Array>
+  </Properties>
+</Properties>

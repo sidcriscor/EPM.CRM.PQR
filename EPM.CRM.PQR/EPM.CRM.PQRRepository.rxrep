@@ -1,0 +1,440 @@
+﻿<repository
+id="f753f0e1-67fd-40ae-b00d-6787a4051de6"
+name="EPM_CRM_PQRRepository"
+rxversion="8.1">
+	<codegen
+	classname="EPM_CRM_PQRRepository"
+	namespace="EPM.CRM.PQR">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="6b31eb5c-b88b-46d6-82f0-e05706f49ca1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="50b86fb2-c130-4ba9-a180-c1554d60032b"
+		isrooted="True"
+		name="PanelesInformacionGeneralDeMicrosof"
+		refpath="/dom[@domain='epm-wt57' and @caption='Paneles: Información general de Microsoft Dynamics 365 Social - Microsoft Dynamics 365']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="6169798e-6cf6-493b-9c5f-1ca02ad69c09"
+			name="ButBegin"
+			refimgid="bfb73636-fcad-4fb5-9106-d05a8eca67cc"
+			searchtimeout="30000ms">
+				/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Informaci&#243;n\ gene']//iframe[#'InlineDialog_Iframe']//button[#'butBegin']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="35c1290d-045e-43f7-ab33-f25b84e3b33a"
+			name="TabWorkplace"
+			refimgid="499f7120-d558-49f0-8622-251301b2b96c"
+			refpath="/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Información\ gene']//span[#'TabWorkplace']"
+			searchtimeout="30000ms">
+				/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Informaci&#243;n\ gene']//span[#'TabWorkplace']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="91c4ea05-e0a5-4fc1-aaff-552cf1e124b7"
+			name="Servicio"
+			refimgid="049258e3-9add-4d48-abff-225f511d805a"
+			refpath="/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Información\ gene']//a[#'CS']/span[1]/span/img[@alt='Servicio']"
+			searchtimeout="30000ms">
+				/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Informaci&#243;n\ gene']//a[#'CS']//img[@alt='Servicio']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b39651c3-1d50-4f8e-a0cc-8767ce9568bc"
+			name="Casos"
+			refimgid="0afac6a7-2307-4f3a-98e2-4d3a4a856bb9"
+			refpath="/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Información\ gene']//a[#'nav_cases']/span[@innertext='Casos']"
+			searchtimeout="30000ms">
+				/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Informaci&#243;n\ gene']//a[#'nav_cases']/span[@innertext='Casos']
+			</item>
+			<basepath>
+				/dom[@domain='epm-wt57' and @caption~'^Paneles:\ Informaci&#243;n\ gene']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="5c5f2ae1-7058-44ff-a0cf-ebb333035b54"
+		isrooted="True"
+		name="CasosMisCasosActivosMedioVerbalM"
+		refpath="/dom[@domain='epm-wt57' and @caption='Casos Mis casos activos medio verbal - Microsoft Dynamics 365']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="f724f33c-2d2f-471b-8879-f843bc672699"
+			name="SpanTagCasoNuevo"
+			refimgid="04698a76-ae6c-42f2-b20c-d04a2e5a6faa"
+			searchtimeout="30000ms">
+				/dom[@caption~'^Casos\ Mis\ casos\ activos\ m']//li[#'incident|NoRelationship|HomePageGrid|Mscrm.HomepageGrid.incident.NewRecord']/span
+			</item>
+			<basepath>
+				/dom[@caption~'^Casos\ Mis\ casos\ activos\ m']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="418244d2-d97e-4b4e-bb8f-233511365e6d"
+		isrooted="True"
+		name="MessageFromWebpage"
+		refpath="/form[@title='Message from webpage']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="2535fe5f-7642-4d0c-b831-eb0c84b70884"
+			name="ButtonOK"
+			refimgid="863589bf-7135-4e91-9061-9893c253a3c8"
+			refpath="/form[@title='Message from webpage']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Message from webpage']/button[@text='OK']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="9934b84a-01c9-45f5-abf9-44cc80b093af"
+			name="Text65535"
+			refimgid="40102697-1655-4161-83e1-afb3f338bdc6"
+			refpath="/form[@title='Message from webpage']/text[@controlid='65535']"
+			searchtimeout="30000ms">
+				/form[@title='Message from webpage']/text[@controlid='65535']
+			</item>
+			<basepath>
+				/form[@title='Message from webpage']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="b20517ec-cd05-4087-88bf-cd17704f559b"
+		isrooted="True"
+		name="CasoNuevoCaso"
+		refpath="/dom[@domain='epm-wt57' and @caption='Caso: Nuevo Caso']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="spantag"
+			id="7a02db37-a839-477d-abd7-03d10af74665"
+			name="EpmPqrservicepointidLedit"
+			refimgid="0b9bbf10-3fc0-40a3-a93e-636dc8196f83"
+			searchtimeout="30000ms">
+				/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//span[#'epm_pqrservicepointid_cl']
+			</item>
+			<folder
+			addcaps="unknown,webelement,iframetag"
+			capname="iframetag"
+			id="2b9c400a-7c26-46e8-bbad-de7f7d99364e"
+			isrooted="True"
+			name="ContentIFrame1"
+			refpath="/dom[@domain='epm-wt57' and @caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="a98e2908-c5dd-4224-be94-842a7611bac2"
+				name="MsCrmInlineValueMsCrmInlineLookup1"
+				refimgid="0a7540e7-f3d7-43c5-96b3-2a91f709e4b4"
+				refpath="/dom[@domain='epm-wt57' and @caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'customerid']/div[1]"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'customerid']/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="7bcb7da9-5ebf-43bb-8a9d-44ca3dd3235c"
+				name="EpmPqrservicepointid"
+				refimgid="075d7cf9-3924-4af6-af4d-41611d16a025"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'epm_pqrservicepointid']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="ed9145bd-330b-4db9-90bf-bc67cdaada96"
+				name="MsCrmInlineValueMsCrmInlineLookup"
+				refimgid="8b1bf829-5122-4907-94e5-335714bb1a1d"
+				refpath="/dom[@domain='epm-wt57' and @caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'epm_pqrservicepointid']/div[1]"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'epm_pqrservicepointid']/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="57212a16-6974-4623-bd6a-988862c4266c"
+				name="CL98CCR80C30"
+				refimgid="39c79046-d154-406b-8564-939f12e85473"
+				refpath="/dom[@domain='epm-wt57' and @caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//li[#'item84']/a[@title='CL 98 C CR 80 C -30']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//li[#'item84']/a[@title='CL 98 C CR 80 C -30']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="32cf43a8-e268-4691-827f-86b5c98b8560"
+				name="FormSelectorDropdown"
+				refimgid="e0a889c1-68e4-4c8b-8515-ad28fe00705b"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//img[#'formSelectorDropdown']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//img[#'formSelectorDropdown']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="7493229d-a178-4420-8925-820f40c48392"
+				name="Quejas"
+				refimgid="167938e3-cf6d-4b01-b819-23f04165f89d"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//li[#'27f20a9f-e80a-4e50-b132-85442b0bc86d']/a[@title='Quejas']/span/tag[@tagname='nobr']/span[@title='Quejas']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//li[#'27f20a9f-e80a-4e50-b132-85442b0bc86d']//span[@title='Quejas']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="a87c4e15-862d-4074-ade5-cdcd252bbd60"
+				name="CasoQuejas"
+				refimgid="19e669d1-40b6-4a7f-aaed-0f66d48259ed"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//a[#'header_crmFormSelector']/?/?/span[@innertext='Caso : ']
+				</item>
+				<item
+				capname="spantag"
+				id="0f80a8c7-d38a-4fac-bc1b-6c844dce62dc"
+				name="CasoQuejas2"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//a[#'header_crmFormSelector']/?/?/span[@innertext='Caso : Quejas']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="e5f03900-9382-47a1-b8e8-7ed248412518"
+				name="MsCrmFloatingDiv"
+				refimgid="3382fab9-bd58-4984-8c1c-c05173fd62d6"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']/body/div[8]"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']/body/div[8]
+				</item>
+				<item
+				addcaps="unknown,webelement,bodytag"
+				capname="bodytag"
+				id="1854af21-cb4c-46cf-8f4a-4e1d73a11601"
+				name="ReadOptimisedFormRefreshForm"
+				refimgid="e9a742d3-4709-4b19-b5ff-fac34ac95614"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']/body
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="c6e88203-5c55-46c4-844b-468b346cbf29"
+				name="EpmPqrservicepointidLedit"
+				refimgid="af216124-4adb-40d7-bb12-3374a114bc56"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//input[#'epm_pqrservicepointid_ledit']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//input[#'epm_pqrservicepointid_ledit']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="329ba423-421e-437d-b382-a691429dcf66"
+				name="MsCrmILMenu"
+				refimgid="149913cc-8d70-4c11-89ca-c8451fdbf468"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//div[#'Dialog_epm_pqrservicepointid_IMenu']/div[2]"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'Dialog_epm_pqrservicepointid_IMenu']/div[2]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="bfbd3db3-7428-4c04-a7b6-fa3d7671a11f"
+				name="Customerid"
+				refimgid="a165c94d-3283-4543-9f65-268545185b3f"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'customerid']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="381bb3b1-5ea2-4d29-a4d7-af8b3b2c4d94"
+				name="MsCrmInlineValueMsCrmInlineHasErr"
+				refimgid="d8035467-4313-40e8-b73c-26b43a275786"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//div[#'epm_pqrcontractnumber']/div[1]"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'epm_pqrcontractnumber']/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="856af7dd-9cd5-4a40-bd7e-ded274c7a9fc"
+				name="DireccionDeRespuestaLabel"
+				refimgid="96660533-4d1b-48a2-83cb-a5c3df0c3727"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//label[#'Dirección de Respuesta_label']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//label[#'Direcci&#243;n de Respuesta_label']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="ec8c25b6-4c83-4b33-89b8-3613c327d810"
+				name="DepartamentoDeRespuestaLabel"
+				refimgid="52e234ae-39c1-45aa-bb44-0588063e09cc"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//label[#'Departamento de Respuesta_label']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//label[#'Departamento de Respuesta_label']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="b18d64a7-9e08-481f-8537-7414ae8c1046"
+				name="MunicipioDeRespuestaLabel"
+				refimgid="4716f226-6320-4e60-a85d-bce26ab653ee"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//label[#'Municipio de Respuesta_label']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//label[#'Municipio de Respuesta_label']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="90f019d0-e6f0-41af-ac3f-6ff2b6b2856e"
+				name="MsCrmInlineValueMsCrmInlineEditHi"
+				refimgid="8197ec95-534e-4922-97e3-ea9a6ac05589"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//div[#'epm_pqrfilenumber']/div[1]"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'epm_pqrfilenumber']/div[1]
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="e55795ca-e05c-4467-bc09-96fd26c4d6c9"
+				name="DivTag70daedd7Aebd46953c5aCbb022d4e"
+				refimgid="159ba9cd-4001-4cb8-b086-37e94b912d1e"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//div[#'{70daedd7-aebd-4695-3c5a-cbb022d4e380}_Header']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'{70daedd7-aebd-4695-3c5a-cbb022d4e380}_Header']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="84a20855-2d5e-496d-b9cc-cb9c47b88737"
+				name="EpmPqrfilenumberI"
+				refimgid="4d77b1b0-7b06-4810-a158-9a49d3f20c38"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//input[#'epm_pqrfilenumber_i']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//input[#'epm_pqrfilenumber_i']
+				</item>
+				<item
+				addcaps="unknown,webelement,labeltag"
+				capname="labeltag"
+				id="12d1adfd-da4e-4151-a66d-608996fb4a59"
+				name="MotivoPQRDetalleLabel"
+				refimgid="291c3f4a-f522-4dc5-9527-3195abf78fad"
+				refpath="/dom[@domain='epm-wt57']//iframe[#'contentIFrame1']//label[#'Motivo PQR (Detalle)_label']"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//label[#'Motivo PQR (Detalle)_label']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="divtag"
+				id="6af09b51-31ca-4424-875e-b98ac19acfa6"
+				name="EpmPqrteamprocessLedit"
+				refimgid="a7d35fbb-c2f6-4e73-bb16-8b5969530a16"
+				searchtimeout="30000ms">
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']//div[#'crmForm']
+				</item>
+				<basepath>
+					/dom[@caption='Caso: Nuevo Caso']//iframe[#'contentIFrame1']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@caption='Caso: Nuevo Caso']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

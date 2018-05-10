@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="EPM.CRM.PQR"
+      id="d5ca3455-6140-499e-b69a-7e096ec008d4"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="EPM.CRM.PQR"
+      id="d5ca3455-6140-499e-b69a-7e096ec008d4"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
